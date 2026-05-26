@@ -1,5 +1,11 @@
-The Morris Worm, released on November 2, 1988, is widely regarded as one of the first major computer worms to spread through the early Internet. It was created by Robert Tappan Morris, a graduate student at Cornell University, as an experiment to measure the size of the Internet and explore its vulnerabilities. However, the worm’s replication mechanism was flawed, leading it to infect thousands of computers across the United States, causing widespread disruption.
+# Morris Worm Analysis
 
-At the time, the Internet was a small, trusted community of systems primarily used by universities, government agencies, and researchers. The Morris Worm exploited several known security vulnerabilities in UNIX-based systems, including weaknesses in the sendmail program, the fingerd service, and the use of weak passwords. Once a machine was infected, the worm would attempt to spread to other connected systems, consuming system resources and causing machines to slow down or crash.
+This project contains a technical analysis of the Morris Worm, covering:
 
-The incident had a profound impact on the cybersecurity community. It highlighted the potential dangers of self-replicating code and exposed the need for stronger security practices on networked systems. In response, organizations and developers began to adopt more rigorous approaches to software patching, system monitoring, and password management. Moreover, the event led to the first conviction under the Computer Fraud and Abuse Act (CFAA), establishing an important legal precedent for prosecuting cybercrimes.
+- Propagation techniques
+- Exploited vulnerabilities
+- Impact and behavior
+- MITRE ATT&CK mapping
+- Defensive insights
+
+The full analysis is available in the attached PDF.
